@@ -1,0 +1,3 @@
+include ':Background_Detection_Library'
+include ':app'
+rootProject.name = "Background_Detection_Library_Kotlin"
