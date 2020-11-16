@@ -7,8 +7,7 @@ import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.OnLifecycleEvent
 import androidx.lifecycle.ProcessLifecycleOwner
 
-open class BackgroundDetectionApplication : Application, LifecycleObserver{
-    constructor() : super()
+open class BackgroundDetectionApplication : Application(), LifecycleObserver{
 
     override fun onCreate() {
         super.onCreate()
